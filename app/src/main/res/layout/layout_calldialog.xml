@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp">
+    <TextView
+        android:text="Bạn muốn gọi cho ai?"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="#958181"
+            android:hint="Nhập số điện thoại vào đây"
+            android:ems="11"
+            android:layout_marginEnd="20dp"
+            android:inputType="number"
+            android:backgroundTint="@color/black"></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginEnd="20dp"></TextView>
+        <ImageView
+            android:id="@+id/imvPhoneBook"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/phonebook"></ImageView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnStartCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="CALL"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/bg_green_corner30"></Button>
+</LinearLayout>

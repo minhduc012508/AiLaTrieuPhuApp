@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Prj_AiLaTrieuPhu</string>
+    <string name="tieude">AI LÀ TRIỆU PHÚ</string>
+    <string name="cauhoi">Câu hỏi</string>
+    <string name="choimoi">Chơi mới</string>
+    <string name="tieptuc">Tiếp tục</string>
+    <string name="caidat">Cài đặt</string>
+    <string name="thoat">Thoát</string>
+    <string name="dangtai">Đang tải...</string>
+    <string name="choilai">Chơi lại</string>
+    <string name="luudiem">Lưu điểm</string>
+    <string name="bangxephang">Bảng xếp hạng</string>
+    <string name="manhinhchinh">Màn hình chính</string>
+    <string name="nhapemail">Nhập email của bạn</string>
+    <string name="hoten">Nhập họ tên của bạn</string>
+    <string name="huy">Hủy</string>
+    <string name="comment">Có thể để lại bình luận tại đây</string>
+    <string name="xemketqua">Xem kết quả</string>
+    <string name="showname">Họ tên:</string>
+    <string name="showbestscore">Điểm cao nhất:</string>
+    <string name="showdistanceleft">Khoảng cách còn lại:</string>
+    <string name="checkinternet">Kiểm tra kết nối Internet</string>
+    <string name="retry">Thử lại</string>
+</resources>
